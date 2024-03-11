@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Oleo+Script:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Oleo Script", system-ui;
+    font-family: "Dancing Script", cursive;
+    font-family: "Poppins", sans-serif;
+}
+.header{
+    background-color: rgb(137, 115, 88);
+}
+.container{
+    width: 1400;
+    max-width: 100%;
+    margin: 0 auto;
+    font-family: "Dancing Script", cursive;
+    
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 70px;
+    background-color: rgb(137, 115, 88);
+    font-size: 20px;
+    font-family: "Oleo Script", system-ui;   
+}
+.navbar ul{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    gap: 40px;
+    
+
+}
+.navbar img{
+    width: 70px;
+    height: 70px;
+}
+a{
+    color: inherit;
+}
+.navbar i {
+    position: relative;
+    width: 35px;
+    height: 35px;
+    color: rgb(14, 12, 12);
+    font-size: 26px;
+    position: absolute;
+    top: 65px;
+    right: 200px;
+    cursor: pointer;
+    align-items: center;
+    border: solid black;
+    border-radius: 50%;
+}
+
+.foto{
+    background: linear-gradient(61deg, rgba(0, 0, 0, 0.481) 0%, rgba(1, 1, 1, 0.6699929971988796) 100%), url("https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=2000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    height: 100vh;
+    width: 100%;
+    margin: 20px 0px 20px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h1 {
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-size: 60px;
+    padding: 90px 90px 90px 90px;
+    font-family: "Oleo Script", system-ui;
+    color: rgb(221, 166, 112);
+
+}
+ p{
+    text-align: center;
+    font-family: "Oleo Script", system-ui;
+    margin-left: 300px;
+    margin-right: 300px;
+    font-size: 20px ;
+    color: rgb(221, 166, 112);
+}
+.foto1{
+    background: linear-gradient(61deg, rgba(0, 0, 0, 0.481) 0%, rgba(1, 1, 1, 0.6699929971988796) 100%), url("https://images.unsplash.com/photo-1533779283484-8ad4940aa3a8?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img1 img{
+    width: 120px;
+    height: 120px;
+    position: relative;
+    right: 80px;
+    top: 80px;
+    
+}
+
+
+
+
+-------------------------------------------------------------------
+.foto1{
+    background: linear-gradient(61deg, rgba(0, 0, 0, 0.481) 0%, rgba(1, 1, 1, 0.6699929971988796) 100%), url("https://images.unsplash.com/photo-1533779283484-8ad4940aa3a8?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+-------------------------------------------------------------------
+.pro-img{
+    width: 250px;
+    height: 130px;
+    object-fit: cover;
+
+}
+.product{
+    width: 282px;
+    height: 280px;
+    border: 4px solid brown;
+    border-radius: 15px;
+
+}
+.buying{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    
+
+    
+}
+button{
+    width: 100px;
+    height: 20px;
+    border: 3px solid black;
+    border-radius: 50px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+}
+button:hover{
+    background-color: rgb(187, 139, 80);
+    color: white;
+    cursor: pointer;
+}
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+h3{
+    text-align: center;
+}
+.about{
+    position: relative;   
+    background-color: bisque;
+    text-align: left;
+}
+#Abo h1{
+    margin-top: 2cm;
+}
+#Abo{
+    color: black;
+    text-align: left;
+    margin-left: 4cm;
+    margin-right: 20cm;
+}
+.img2{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    margin-left: 7cm;
+}
+.relative{
+    position: relative;
+    left: 800px;
+    bottom: 300px;  
+}
+.relative img{
+    height: 300px;
+    width: 400px;
+}
